@@ -6,7 +6,7 @@
 
 <div class="row">
     @foreach ($trains as $train)
-    <div class="col-4">
+    <div class="col-4 py-4">
         <div class="card">
             <div class="card-header fw-bold">
               Travel with {{ $train->company }}
